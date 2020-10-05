@@ -1,0 +1,33 @@
+#body {
+    
+}
+#imgs {
+    display: flex;
+    
+    width:500px;
+    height: 400px;
+    overflow: hidden;
+    margin: 5px;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+}
+#flex-1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: cadetblue;
+    font-size: 36px;
+}
+#flex-3{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:5px;
+    background-color: coral;
+}
